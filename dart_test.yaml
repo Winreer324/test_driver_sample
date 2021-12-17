@@ -1,0 +1,14 @@
+# Disallow duplicate test names in this package
+allow_duplicate_test_names: false
+
+presets:
+  # "-P terse-trace" folds frames from test's implementation to make the output
+  # less verbose when
+  terse-trace:
+    fold_stack_frames:
+      except: [test]
+
+tags:
+  alpha: {
+
+  }
