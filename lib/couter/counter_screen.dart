@@ -31,14 +31,14 @@ class _CounterScreenState extends State<CounterScreen> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10),
-              child: IconButton(
-                onPressed: _incrementCounter,
-                tooltip: 'Increment',
-                icon: const Icon(Icons.add),
-              ),
-            ),
+            // Padding(
+            //   padding: const EdgeInsets.symmetric(vertical: 10),
+            //   child: IconButton(
+            //     onPressed: _incrementCounter,
+            //     tooltip: 'Increment',
+            //     icon: const Icon(Icons.add),
+            //   ),
+            // ),
           ],
         ),
       ),

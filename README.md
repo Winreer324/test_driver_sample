@@ -23,3 +23,8 @@ unit test = модульное тестирование
 
 Все тестовые файлы в приложении Flutter (кроме интеграционных) помещаются в test каталог.
 
+widget test
+запустить тест на телефоне flutter run test/list_colors/list_colors_test.dart
+
+integration test
+flutter drive --driver integration_test/driver.dart --target integration_test/app_test.dart

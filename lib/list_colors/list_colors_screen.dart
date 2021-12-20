@@ -25,6 +25,7 @@ class _ListColorsScreenState extends State<ListColorsScreen> {
         onPressed: () {
           Navigator.pushNamed(context, FavoritesPage.routeName);
         },
+        tooltip: 'action route to favorites page',
         child: const Icon(Icons.favorite_border),
       ),
     );

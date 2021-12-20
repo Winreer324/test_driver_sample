@@ -52,7 +52,7 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage>  {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -65,11 +65,11 @@ class _HomePageState extends State<HomePage> {
             tabs: [
               Padding(
                 padding: EdgeInsets.only(bottom: 10),
-                child: Text('Counter'),
+                child: Text('List colors'),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: 10),
-                child: Text('List colors'),
+                child: Text('Counter'),
               ),
             ],
             padding: EdgeInsets.only(bottom: 10),
@@ -77,8 +77,8 @@ class _HomePageState extends State<HomePage> {
         ),
         body: const TabBarView(
           children: [
-            CounterScreen(),
             ListColorsScreen(),
+            CounterScreen(),
           ],
         ),
       ),
